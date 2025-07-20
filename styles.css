@@ -1,5 +1,70 @@
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
 .image01 {
     width: 400px;
     height: 300px;
 }
 
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+.tittle {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.right-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 16px;
+    margin-right: 100px;
+}
+
+.second-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    height: 400px;
+    align-items: flex-start;
+}
+
+.second-text {
+    margin-left: 100px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.image-placeholder {
+    margin-right: 100px;
+}
+
+.main-button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-color: #3882F6;
+    color: #F9FAF8;
+    padding-right: 12px;
+    padding-left: 12px;
+}
